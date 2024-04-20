@@ -1,7 +1,7 @@
 import sqlite3
 
 # データベース接続
-conn = sqlite3.connect('testdata5.db')
+conn = sqlite3.connect('MVP.db')
 c = conn.cursor()
 
 # テーブル作成
@@ -15,6 +15,7 @@ file_blob_pairs = [
     ('edelpils.png', 'エーデル樽生'),
     ('tarunama_black.png', '樽生ブラック'),
     ('sorachi.png', 'ソラチ樽生'),
+    ('premol.png', 'プレミアムモルツ')
     # 他の画像ファイルと名前のペアを追加
 ]
 
